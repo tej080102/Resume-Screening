@@ -1,0 +1,10 @@
+To Create database:
+	create database resumes;
+
+To Create Table:
+	use resumes;
+	create table employees(Name varchar(50),Email varchar(50),Resume mediumblob,score float,location varchar(30));
+
+To store in Table:
+	query = """INSERT INTO employees (Name,Email,Resume) value (%s,%s,%s)"""
+    	value = (name,email, convertfile)
