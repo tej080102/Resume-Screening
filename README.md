@@ -1,5 +1,5 @@
 # Resume-Screening
-Introduction
+# Introduction
 AI Resume Screening is a tool that uses artificial intelligence to automate the process of resume screening and shortlisting. The tool uses natural language processing and machine learning algorithms to analyze resumes and classify them to the job roles based on the words in their resume.
 
 Our tool will be designed to make the hiring process easier for both HR teams and job seekers. Our idea is to develop a user-friendly web page that enables HR teams to select the specific job role they are recruiting for. Once the job role is chosen, a link is shared with potential candidates who can then upload their resumes.
@@ -8,7 +8,7 @@ Using pre-trained machine learning models, which are trained on thousands of res
 
 Our tool saves HR teams valuable time and energy as they no longer need to manually sift through hundreds of resumes. Job seekers also benefit from receiving immediate feedback on their eligibility, streamlining their job search process.
 
-Features
+# Features
 Automated resume screening: AI Resume Screening saves time and effort by automatically screening resumes based on job requirements and pre-defined criteria.
 
 Improved accuracy: The tool uses advanced algorithms to analyze resumes, reducing the likelihood of human bias and improving the accuracy of the shortlisting process. We have achieved 91 percent accuracy.
@@ -17,7 +17,7 @@ Efficient process: Each resume is categorized with the model in less than 5 seco
 
 Detailed output : The HR gets a detailed output of the Name, Email, Location, and the candidate's resumé, based on the scores.
 
-Usage
+# Usage
 The code consists of the following parts:
 
 Upload_Resume.py : This is the code which integrates the UI with the Trained model. Use the command “streamlit run Upload_Resume.py” which opens the web browser where the candidate can upload the resume. Alternatively the code can be hosted online using streamlit and the link can directly be sent to the candidate,to upload the resume.
@@ -34,12 +34,12 @@ HR.py: The page where HR enters the job role which is open for hiring, based on 
 
 pages/Show_Resumes.py: It displays the resumes of the shortlisted candidates by sorting them in descending order of the scores.
 
-Other things to know:
+# Other things to know:
 The data of shortlisted candidates will be stored in a MySQL database, making it feasible to view their profiles.
 
 The 'pages' folder should be placed in the same parent folder which contains 'HR.py' and 'Show Resumes.py' shouldn't be moved out of 'pages'
 
-Datasets used for the model:
+# Datasets used for the model:
 https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
 
 https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
